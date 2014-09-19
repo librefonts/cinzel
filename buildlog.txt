@@ -1,0 +1,1783 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/cinzel/METADATA.json /home/travis/build/fontdirectory/cinzel/builds/build
+$ cp -a /home/travis/build/fontdirectory/cinzel/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/cinzel/builds/build
+$ cp -a /home/travis/build/fontdirectory/cinzel/FONTLOG.txt /home/travis/build/fontdirectory/cinzel/builds/build
+$ cp -a src/Cinzel-Bold-OTF.ufo src/Cinzel-Black-OTF.ufo src/Cinzel-Bold.ufo src/Cinzel-Regular.ufo src/Cinzel-Regular-OTF.ufo Cinzel-Bold.ttf.ttx Cinzel-Regular.ttf.ttx Cinzel-Black.ttf.ttx src/Cinzel-Black.otf.ttx src/Cinzel-Regular.otf.ttx src/Cinzel-Bold.otf.ttx src/Cinzel-Black-TTF.sfd src/Cinzel-Bold-TTF.sfd src/Cinzel-Regular-TTF.sfd src/Cinzel-Bold.otf._c_m_a_p.ttx src/Cinzel-Bold.otf._h_e_a_d.ttx src/Cinzel-Bold.otf._n_a_m_e.ttx src/Cinzel-Bold.otf._h_h_e_a.ttx src/Cinzel-Bold.otf._m_a_x_p.ttx src/Cinzel-Bold.otf._h_m_t_x.ttx src/Cinzel-Bold.otf.C_F_F_.ttx src/Cinzel-Bold.otf.G_P_O_S_.ttx src/Cinzel-Bold.otf.G_S_U_B_.ttx src/Cinzel-Bold.otf.ttx src/Cinzel-Bold.otf.GlyphOrder.ttx src/Cinzel-Bold.otf._p_o_s_t.ttx src/Cinzel-Bold.otf.O_S_2f_2.ttx src/Cinzel-Regular.otf.G_P_O_S_.ttx src/Cinzel-Regular.otf._m_a_x_p.ttx src/Cinzel-Regular.otf.O_S_2f_2.ttx src/Cinzel-Regular.otf._c_m_a_p.ttx src/Cinzel-Regular.otf.G_S_U_B_.ttx src/Cinzel-Regular.otf._h_h_e_a.ttx src/Cinzel-Regular.otf._h_e_a_d.ttx src/Cinzel-Regular.otf.ttx src/Cinzel-Regular.otf._h_m_t_x.ttx src/Cinzel-Regular.otf.C_F_F_.ttx src/Cinzel-Regular.otf._n_a_m_e.ttx src/Cinzel-Regular.otf._p_o_s_t.ttx src/Cinzel-Regular.otf.GlyphOrder.ttx Cinzel-Bold.ttf.GlyphOrder.ttx Cinzel-Bold.ttf._h_m_t_x.ttx Cinzel-Bold.ttf.O_S_2f_2.ttx Cinzel-Bold.ttf._g_a_s_p.ttx Cinzel-Bold.ttf._m_a_x_p.ttx Cinzel-Bold.ttf._c_m_a_p.ttx Cinzel-Bold.ttf.F_F_T_M_.ttx Cinzel-Bold.ttf._p_o_s_t.ttx Cinzel-Bold.ttf.G_D_E_F_.ttx Cinzel-Bold.ttf._h_h_e_a.ttx Cinzel-Bold.ttf._n_a_m_e.ttx Cinzel-Bold.ttf._p_r_e_p.ttx Cinzel-Bold.ttf._l_o_c_a.ttx Cinzel-Bold.ttf.D_S_I_G_.ttx Cinzel-Bold.ttf.G_P_O_S_.ttx Cinzel-Bold.ttf._h_e_a_d.ttx Cinzel-Bold.ttf._g_l_y_f.ttx Cinzel-Bold.ttf.G_S_U_B_.ttx Cinzel-Regular.ttf._h_m_t_x.ttx Cinzel-Regular.ttf.F_F_T_M_.ttx Cinzel-Regular.ttf._h_h_e_a.ttx Cinzel-Regular.ttf._p_o_s_t.ttx Cinzel-Regular.ttf._l_o_c_a.ttx Cinzel-Regular.ttf._n_a_m_e.ttx Cinzel-Regular.ttf.GlyphOrder.ttx Cinzel-Regular.ttf._p_r_e_p.ttx Cinzel-Regular.ttf._m_a_x_p.ttx Cinzel-Regular.ttf.D_S_I_G_.ttx Cinzel-Regular.ttf._g_l_y_f.ttx Cinzel-Regular.ttf.G_D_E_F_.ttx Cinzel-Regular.ttf.G_S_U_B_.ttx Cinzel-Regular.ttf._g_a_s_p.ttx Cinzel-Regular.ttf._c_m_a_p.ttx Cinzel-Regular.ttf.G_P_O_S_.ttx Cinzel-Regular.ttf._h_e_a_d.ttx Cinzel-Regular.ttf.O_S_2f_2.ttx Cinzel-Black.ttf._m_a_x_p.ttx Cinzel-Black.ttf.GlyphOrder.ttx Cinzel-Black.ttf._h_m_t_x.ttx Cinzel-Black.ttf._h_e_a_d.ttx Cinzel-Black.ttf.D_S_I_G_.ttx Cinzel-Black.ttf._h_h_e_a.ttx Cinzel-Black.ttf._p_r_e_p.ttx Cinzel-Black.ttf.G_D_E_F_.ttx Cinzel-Black.ttf.G_P_O_S_.ttx Cinzel-Black.ttf.F_F_T_M_.ttx Cinzel-Black.ttf._g_a_s_p.ttx Cinzel-Black.ttf._p_o_s_t.ttx Cinzel-Black.ttf._l_o_c_a.ttx Cinzel-Black.ttf.G_S_U_B_.ttx Cinzel-Black.ttf._c_m_a_p.ttx Cinzel-Black.ttf._n_a_m_e.ttx Cinzel-Black.ttf._g_l_y_f.ttx Cinzel-Black.ttf.O_S_2f_2.ttx src/Cinzel-Black.otf._c_m_a_p.ttx src/Cinzel-Black.otf.C_F_F_.ttx src/Cinzel-Black.otf.GlyphOrder.ttx src/Cinzel-Black.otf.O_S_2f_2.ttx src/Cinzel-Black.otf.G_S_U_B_.ttx src/Cinzel-Black.otf._p_o_s_t.ttx src/Cinzel-Black.otf._m_a_x_p.ttx src/Cinzel-Black.otf.G_P_O_S_.ttx src/Cinzel-Black.otf._h_e_a_d.ttx src/Cinzel-Black.otf._h_h_e_a.ttx src/Cinzel-Black.otf._h_m_t_x.ttx src/Cinzel-Black.otf._n_a_m_e.ttx src/Cinzel-Regular.otf.G_P_O_S_.ttx src/Cinzel-Regular.otf._m_a_x_p.ttx src/Cinzel-Regular.otf.O_S_2f_2.ttx src/Cinzel-Regular.otf._c_m_a_p.ttx src/Cinzel-Regular.otf.G_S_U_B_.ttx src/Cinzel-Regular.otf._h_h_e_a.ttx src/Cinzel-Regular.otf._h_e_a_d.ttx src/Cinzel-Regular.otf._h_m_t_x.ttx src/Cinzel-Regular.otf.C_F_F_.ttx src/Cinzel-Regular.otf._n_a_m_e.ttx src/Cinzel-Regular.otf._p_o_s_t.ttx src/Cinzel-Regular.otf.GlyphOrder.ttx src/Cinzel-Bold.otf._c_m_a_p.ttx src/Cinzel-Bold.otf._h_e_a_d.ttx src/Cinzel-Bold.otf._n_a_m_e.ttx src/Cinzel-Bold.otf._h_h_e_a.ttx src/Cinzel-Bold.otf._m_a_x_p.ttx src/Cinzel-Bold.otf._h_m_t_x.ttx src/Cinzel-Bold.otf.C_F_F_.ttx src/Cinzel-Bold.otf.G_P_O_S_.ttx src/Cinzel-Bold.otf.G_S_U_B_.ttx src/Cinzel-Bold.otf.GlyphOrder.ttx src/Cinzel-Bold.otf._p_o_s_t.ttx src/Cinzel-Bold.otf.O_S_2f_2.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ bakery-lint.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold-OTF.ufo /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black-OTF.ufo /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.ufo /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.ufo /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular-OTF.ufo /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black.otf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.ttf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.ttf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.otf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black.ttf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.otf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black-TTF.sfd /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold-TTF.sfd /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular-TTF.sfd > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): FAIL
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): FAIL
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): FAIL
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): FAIL
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): FAIL
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ bakery-lint.py upstream Cinzel-Bold-OTF.ufo
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): FAIL
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Cinzel-Black-OTF.ufo
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): FAIL
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Cinzel-Bold.ufo
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): FAIL
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Cinzel-Regular.ufo
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): FAIL
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Cinzel-Regular-OTF.ufo
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): OK
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): FAIL
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream-ttx Cinzel-Black.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black.otf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+$ bakery-lint.py upstream-ttx Cinzel-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.ttf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+$ bakery-lint.py upstream-ttx Cinzel-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.ttf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+$ bakery-lint.py upstream-ttx Cinzel-Regular.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.otf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+$ bakery-lint.py upstream-ttx Cinzel-Black.ttf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black.ttf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/CinzelBlack-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+$ bakery-lint.py upstream-ttx Cinzel-Bold.otf.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.otf.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+$ bakery-lint.py upstream Cinzel-Black-TTF.sfd
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Cinzel-Bold-TTF.sfd
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ bakery-lint.py upstream Cinzel-Regular-TTF.sfd
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/cinzel/builds/build /home/travis/build/fontdirectory/cinzel/builds/build/sources/CinzelBlack-Regular.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.ttx /home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.ttx
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold-OTF.ufo
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black-OTF.ufo
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.ufo
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.ufo
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular-OTF.ufo
+Compiling "/home/travis/build/fontdirectory/cinzel/builds/build/sources/CinzelBlack-Regular.ttx" to "/home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Black.ttx" to "/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Compiling "/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Bold.ttx" to "/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Compiling "/home/travis/build/fontdirectory/cinzel/builds/build/sources/Cinzel-Regular.ttx" to "/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+$ font2ttf.py sources/Cinzel-Black.otf Cinzel-Black.ttf
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ SubFamily string in the language English (US)
+ Mac String: Black
+Windows String: Regular
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cinzel Black
+Windows String: Cinzel-Black
+### Test CinzelBlack-Regular.ttf
+$ bakery-lint.py result CinzelBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Preferred Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Preferred Styles string in the language English (US)
+ Mac String: Black
+Windows String: Regular
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf)
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.otf
+$ font2ttf.py sources/Cinzel-Bold.otf Cinzel-Bold.ttf
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Fullname string in the language English (US)
+ Mac String: Cinzel Bold
+Windows String: Cinzel-Bold
+### Test Cinzel-Black.ttf
+$ bakery-lint.py result Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Preferred Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Preferred Styles string in the language English (US)
+ Mac String: Black
+Windows String: Regular
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf)
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.otf
+$ font2ttf.py sources/Cinzel-Regular.otf Cinzel-Regular.ttf
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Fullname string in the English (US) language.
+### Test Cinzel-Bold.ttf
+$ bakery-lint.py result Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf)
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.otf
+$ font2ttf.py sources/Cinzel-Bold-OTF.ufo Cinzel-Bold-OTF.ttf
+### Test Cinzel-Regular.ttf
+$ bakery-lint.py result Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Compatible Full string in the language English (US)
+ Mac String: Cinzel Regular
+Windows String: Cinzel-Regular
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf)
+$ font2ttf.py sources/Cinzel-Black-OTF.ufo Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+### Test Cinzel-Bold-OTF.ttf
+$ bakery-lint.py result Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Copyright string in the language English (US)
+ Mac String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name OCinzelO
+Windows String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name Cinzel
+The glyph named Tcommaaccent is mapped to U+021A.
+But its name indicates it should be mapped to U+0162.
+The glyph named tcommaaccent is mapped to U+021B.
+But its name indicates it should be mapped to U+0163.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): FAIL
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf)
+$ font2ttf.py sources/Cinzel-Bold.ufo Cinzel-Bold.ttf
+### Test Cinzel-Black-OTF.ttf
+$ bakery-lint.py result Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+Internal Error (overlap) in X: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in X: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in X: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in X: The start of the monotonic does not match that of the containing spline.
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Internal Error (overlap) in x: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in x: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in x: The start of the monotonic does not match that of the containing spline.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Copyright string in the language English (US)
+ Mac String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name OCinzelO
+Windows String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name Cinzel
+The glyph named Tcommaaccent is mapped to U+021A.
+But its name indicates it should be mapped to U+0162.
+The glyph named tcommaaccent is mapped to U+021B.
+But its name indicates it should be mapped to U+0163.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf)
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+$ font2ttf.py sources/Cinzel-Regular.ufo Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+### Test Cinzel-Bold.ttf
+$ bakery-lint.py result Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+Error: 
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+$ bakery-vmet-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ bakery-dsig.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in d: The start of the monotonic does not match that of the containing spline.
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): ERROR
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Copyright string in the language English (US)
+ Mac String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name OCinzelO
+Windows String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name Cinzel
+Attempt to read script data beyond end of GSUB table
+Attempt to read feature data beyond end of GSUB table
+Attempt to read lookup data beyond end of GSUB table
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Eth: The start of the monotonic does not match that of the containing spline.
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eth: The start of the monotonic does not match that of the containing spline.
+Attempt to read script data beyond end of GPOS table
+Too many features 7423
+Too many lookups 30720
+Attempt to read script data beyond end of GSUB table
+Attempt to read feature data beyond end of GSUB table
+Attempt to read lookup data beyond end of GSUB table
+Internal Error (overlap) in Euro: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Euro: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Euro: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Euro: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Euro: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Euro: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Euro: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in Euro: The start of the monotonic does not match that of the containing spline.
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf)
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+no table gasp
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+$ font2ttf.py sources/Cinzel-Regular-OTF.ufo Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): ERROR
+### Test Cinzel-Regular.ttf
+$ bakery-lint.py result Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): ERROR
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Copyright string in the language English (US)
+ Mac String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name OCinzelO
+Windows String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name Cinzel
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+$ bakery-vmet-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf /home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+Internal Error (overlap) in eogonek: The start of the monotonic does not match that of the containing spline.
+Internal Error (overlap) in eogonek: The start of the monotonic does not match that of the containing spline.
+Process Process-7:
+Traceback (most recent call last):
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/build.py", line 114, in run_processes
+    fontlint.run(filename, pipedata)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/fontlint.py", line 60, in run
+    log=self.bakery.logger)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/__init__.py", line 27, in run_set
+    return run_suite(tests_suite)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 246, in run_suite
+    runner.run(suite)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 171, in run
+    test(result)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/suite.py", line 70, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/suite.py", line 108, in run
+    test(result)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 393, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 333, in run
+    result.addFailure(self, sys.exc_info())
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 136, in addFailure
+    self.callmethod(test_method.autofix_method, test)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 91, in callmethod
+    getattr(mod, methodname.split('.')[-1])(test)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/autofix.py", line 132, in fix_metrics
+    testcase.operator.debug(metricview(paths))
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/scripts/vmet.py", line 45, in metricview
+    view.add_metric(os.path.basename(f), metrics)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/scripts/vmet.py", line 140, in add_metric
+    ymin, ymax = vmet.get_bounding()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/ttfont.py", line 81, in get_bounding
+Process Process-8:
+    for g in self['glyf'].glyphs:
+Traceback (most recent call last):
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/ttfont.py", line 56, in __getitem__
+    return self.ttfont[key]
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_g_l_y_f.py", line 39, in decompile
+    self.run()
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/build.py", line 114, in run_processes
+    fontlint.run(filename, pipedata)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/fontlint.py", line 60, in run
+    log=self.bakery.logger)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/__init__.py", line 27, in run_set
+    self.glyphOrder = glyphOrder = ttFont.getGlyphOrder()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 441, in getGlyphOrder
+    return run_suite(tests_suite)
+    glyphOrder = self['post'].getGlyphOrder()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 246, in run_suite
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_p_o_s_t.py", line 44, in decompile
+    runner.run(suite)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 171, in run
+    test(result)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/suite.py", line 70, in __call__
+    raise ttLib.TTLibError("'post' table format %f not supported" % self.formatType)
+TTLibError: 'post' table format 108.000000 not supported
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/CinzelBlack-Regular.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+CinzelBlack-Regular.ttf.fix made with spaceWidth and nbspWidth of 250
+    return self.run(*args, **kwds)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/suite.py", line 108, in run
+    test(result)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 393, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 333, in run
+    result.addFailure(self, sys.exc_info())
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 136, in addFailure
+    self.callmethod(test_method.autofix_method, test)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 91, in callmethod
+    getattr(mod, methodname.split('.')[-1])(test)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/autofix.py", line 121, in fix_metrics
+    metricfix(paths)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/scripts/vmet.py", line 71, in metricfix
+    font_ymin, font_ymax = metrics.get_bounding()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/ttfont.py", line 81, in get_bounding
+    for g in self['glyf'].glyphs:
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/ttfont.py", line 56, in __getitem__
+    return self.ttfont[key]
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_g_l_y_f.py", line 39, in decompile
+    self.glyphOrder = glyphOrder = ttFont.getGlyphOrder()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 441, in getGlyphOrder
+    glyphOrder = self['post'].getGlyphOrder()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_p_o_s_t.py", line 44, in decompile
+    raise ttLib.TTLibError("'post' table format %f not supported" % self.formatType)
+TTLibError: 'post' table format 108.000000 not supported
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Black.ttf.fix made with spaceWidth and nbspWidth of 250
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf)
+$ font2ttf.py sources/Cinzel-Black-TTF.sfd Cinzel-Black-TTF.ttf
+### Test Cinzel-Regular-OTF.ttf
+$ bakery-lint.py result Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): FAIL
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+Process Process-9:
+Traceback (most recent call last):
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/build.py", line 114, in run_processes
+    fontlint.run(filename, pipedata)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/fontlint.py", line 60, in run
+    log=self.bakery.logger)
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/__init__.py", line 27, in run_set
+    return run_suite(tests_suite)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 246, in run_suite
+    runner.run(suite)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 171, in run
+    test(result)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/suite.py", line 70, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/suite.py", line 108, in run
+    test(result)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 393, in __call__
+    return self.run(*args, **kwds)
+  File "/opt/python/2.7.8/lib/python2.7/unittest/case.py", line 333, in run
+    result.addFailure(self, sys.exc_info())
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 136, in addFailure
+    self.callmethod(test_method.autofix_method, test)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/base.py", line 91, in callmethod
+    getattr(mod, methodname.split('.')[-1])(test)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/autofix.py", line 121, in fix_metrics
+    metricfix(paths)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/scripts/vmet.py", line 71, in metricfix
+    font_ymin, font_ymax = metrics.get_bounding()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/ttfont.py", line 81, in get_bounding
+    for g in self['glyf'].glyphs:
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/ttfont.py", line 56, in __getitem__
+    return self.ttfont[key]
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_g_l_y_f.py", line 39, in decompile
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+    self.glyphOrder = glyphOrder = ttFont.getGlyphOrder()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 441, in getGlyphOrder
+    glyphOrder = self['post'].getGlyphOrder()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_p_o_s_t.py", line 44, in decompile
+    raise ttLib.TTLibError("'post' table format %f not supported" % self.formatType)
+TTLibError: 'post' table format 108.000000 not supported
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Bold.ttf.fix made with spaceWidth and nbspWidth of 250
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Copyright string in the language English (US)
+ Mac String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name OCinzelO
+Windows String: Copyright (c) 2012 Natanael Gama (www.ndiscovered.com), with Reserved Font Name Cinzel
+The glyph named Tcommaaccent is mapped to U+021A.
+But its name indicates it should be mapped to U+0162.
+The glyph named tcommaaccent is mapped to U+021B.
+But its name indicates it should be mapped to U+0163.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+### Optimize TTF Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+$ ls -l 'Cinzel-Regular.ttf'* # look at the size savings of that subset process
+Cinzel-Regular.ttf.opt: 39756 bytes
+Cinzel-Regular.ttf: 47276 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.opt /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+### Autohint TTFs (ttfautohint) Cinzel-Regular.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf)
+$ font2ttf.py sources/Cinzel-Bold-TTF.sfd Cinzel-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+### Test Cinzel-Black-TTF.ttf
+$ bakery-lint.py result Cinzel-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+$ ls -l /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf: 39756 bytes
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.autohint.ttf: 54484 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.autohint.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+### Subset TTFs (pyftsubset) Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Generate Cinzel-Regular.latin
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Preferred Family string in the English (US) language.
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Preferred Styles string in the language English (US)
+ Mac String: Black
+Windows String: Regular
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+Generate Cinzel-Regular.menu
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Regular.ttf.fix made with spaceWidth and nbspWidth of 250
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): FAIL
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf)
+$ font2ttf.py sources/Cinzel-Regular-TTF.sfd Cinzel-Regular-TTF.ttf
+### Test Cinzel-Bold-TTF.ttf
+$ bakery-lint.py result Cinzel-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): ERROR
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): ERROR
+### Optimize TTF Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+$ ls -l 'Cinzel-Bold-OTF.ttf'* # look at the size savings of that subset process
+Cinzel-Bold-OTF.ttf.opt: 55008 bytes
+Cinzel-Bold-OTF.ttf: 62348 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf.opt /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+### Autohint TTFs (ttfautohint) Cinzel-Bold-OTF.ttf
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+### Optimize TTF Cinzel-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Process Process-13:
+Traceback (most recent call last):
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/opt/python/2.7.8/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/build.py", line 117, in run_processes
+    optimize.run(filename, pipedata)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_cli/pipe/optimize.py", line 59, in run
+    subsetter.populate(glyphs=font.getGlyphOrder())
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 441, in getGlyphOrder
+    glyphOrder = self['post'].getGlyphOrder()
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/__init__.py", line 394, in __getitem__
+    table.decompile(data, self)
+  File "/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/FontTools/fontTools/ttLib/tables/_p_o_s_t.py", line 44, in decompile
+    raise ttLib.TTLibError("'post' table format %f not supported" % self.formatType)
+TTLibError: 'post' table format 108.000000 not supported
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold.ttf
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+$ ls -l /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf: 55008 bytes
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.autohint.ttf: 79540 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.autohint.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+### Subset TTFs (pyftsubset) Cinzel-Bold-OTF.ttf
+Generate Cinzel-Bold-OTF.latin
+Generate Cinzel-Bold-OTF.menu
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-OTF.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Bold-OTF.ttf.fix made with spaceWidth and nbspWidth of 250
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf)
+### Test Cinzel-Regular-TTF.ttf
+$ bakery-lint.py result Cinzel-Regular-TTF.ttf
+### (5 of 6) Generate METADATA.json (genmetadata.py)
+$ genmetadata.py /home/travis/build/fontdirectory/cinzel/builds/build
+{} exists
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+Designer's name from font is: Natanael Gama
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Cinzel-Black-OTF.ttf
+Error: 'post' table format 108.000000 not supported
+ERROR: BUILD FAILED
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+$ ls -l 'Cinzel-Black-OTF.ttf'* # look at the size savings of that subset process
+Cinzel-Black-OTF.ttf.opt: 55948 bytes
+Cinzel-Black-OTF.ttf: 63292 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf.opt /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+### Autohint TTFs (ttfautohint) Cinzel-Black-OTF.ttf
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ bakery-fstype-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_file_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ bakery-ascii-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ bakery-opentype-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+Warning: Mac and Windows entries in the 'name' table differ for the
+ Compatible Full string in the language English (US)
+ Mac String: Cinzel Regular
+Windows String: Cinzel-Regular
+### Optimize TTF Cinzel-Regular.ttf
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+$ ls -l /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf: 55948 bytes
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.autohint.ttf: 80488 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.autohint.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+### Subset TTFs (pyftsubset) Cinzel-Black-OTF.ttf
+$ ls -l 'Cinzel-Regular.ttf'* # look at the size savings of that subset process
+Cinzel-Regular.ttf.opt: 54068 bytes
+Cinzel-Regular.ttf: 54484 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf.opt /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+Generate Cinzel-Black-OTF.latin
+### Autohint TTFs (ttfautohint) Cinzel-Regular.ttf
+Generate Cinzel-Black-OTF.menu
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-OTF.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Black-OTF.ttf.fix made with spaceWidth and nbspWidth of 250
+$ ls -l /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf: 54068 bytes
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.autohint.ttf: 54484 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.autohint.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+### Subset TTFs (pyftsubset) Cinzel-Regular.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ bakery-gasp.py --set=15 /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): OK
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): FAIL
+Generate Cinzel-Regular.latin
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ bakery-nbsp-fix.py /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+Generate Cinzel-Regular.menu
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Regular.ttf.fix made with spaceWidth and nbspWidth of 250
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): ERROR
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Cinzel-Black-TTF.ttf
+### Optimize TTF Cinzel-Regular-OTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+$ ls -l 'Cinzel-Regular-OTF.ttf'* # look at the size savings of that subset process
+Cinzel-Regular-OTF.ttf.opt: 54984 bytes
+Cinzel-Regular-OTF.ttf: 62340 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf.opt /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+### Autohint TTFs (ttfautohint) Cinzel-Regular-OTF.ttf
+$ ls -l /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf: 54984 bytes
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.autohint.ttf: 79036 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.autohint.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+### Subset TTFs (pyftsubset) Cinzel-Regular-OTF.ttf
+$ ls -l 'Cinzel-Black-TTF.ttf'* # look at the size savings of that subset process
+Cinzel-Black-TTF.ttf.opt: 54896 bytes
+Cinzel-Black-TTF.ttf: 58060 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf.opt /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+### Autohint TTFs (ttfautohint) Cinzel-Black-TTF.ttf
+Generate Cinzel-Regular-OTF.latin
+Generate Cinzel-Regular-OTF.menu
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-OTF.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Regular-OTF.ttf.fix made with spaceWidth and nbspWidth of 250
+$ ls -l /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf: 54896 bytes
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.autohint.ttf: 80500 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.autohint.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+### Subset TTFs (pyftsubset) Cinzel-Black-TTF.ttf
+Generate Cinzel-Black-TTF.latin
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): ERROR
+Generate Cinzel-Black-TTF.menu
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Black-TTF.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Black-TTF.ttf.fix made with spaceWidth and nbspWidth of 250
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+### Optimize TTF Cinzel-Bold-TTF.ttf
+$ ls -l 'Cinzel-Bold-TTF.ttf'* # look at the size savings of that subset process
+Cinzel-Bold-TTF.ttf.opt: 54368 bytes
+Cinzel-Bold-TTF.ttf: 57548 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf.opt /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+### Autohint TTFs (ttfautohint) Cinzel-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): ERROR
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ bakery-encode-glyphs-fix.py --autofix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+$ ls -l /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf: 54368 bytes
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.autohint.ttf: 81060 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.autohint.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+### Subset TTFs (pyftsubset) Cinzel-Bold-TTF.ttf
+### Optimize TTF Cinzel-Regular-TTF.ttf
+Generate Cinzel-Bold-TTF.latin
+Generate Cinzel-Bold-TTF.menu
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Bold-TTF.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Bold-TTF.ttf.fix made with spaceWidth and nbspWidth of 250
+$ ls -l 'Cinzel-Regular-TTF.ttf'* # look at the size savings of that subset process
+Cinzel-Regular-TTF.ttf.opt: 52508 bytes
+Cinzel-Regular-TTF.ttf: 55640 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf.opt /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+### Autohint TTFs (ttfautohint) Cinzel-Regular-TTF.ttf
+$ ls -l /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf: 52508 bytes
+/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.autohint.ttf: 77236 bytes
+$ mv /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.autohint.ttf /home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+### Subset TTFs (pyftsubset) Cinzel-Regular-TTF.ttf
+Generate Cinzel-Regular-TTF.latin
+Generate Cinzel-Regular-TTF.menu
+strippedname:/home/travis/build/fontdirectory/cinzel/builds/build/Cinzel-Regular-TTF.ttf
+No nbsp glyph
+spaceWidth is    250
+nbspWidth is     0
+Cinzel-Regular-TTF.ttf.fix made with spaceWidth and nbspWidth of 250

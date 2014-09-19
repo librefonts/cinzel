@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [src/Cinzel-Bold-OTF.ufo, src/Cinzel-Black-OTF.ufo, src/Cinzel-Bold.ufo,
+  src/Cinzel-Regular.ufo, src/Cinzel-Regular-OTF.ufo, Cinzel-Bold.ttf.ttx, Cinzel-Regular.ttf.ttx,
+  Cinzel-Black.ttf.ttx, src/Cinzel-Black.otf.ttx, src/Cinzel-Regular.otf.ttx, src/Cinzel-Bold.otf.ttx,
+  src/Cinzel-Black-TTF.sfd, src/Cinzel-Bold-TTF.sfd, src/Cinzel-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
